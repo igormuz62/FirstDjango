@@ -64,3 +64,7 @@ def items_list(request):
     # return HttpResponse(result)
     context = {"items":items}
     return render(request, "items-list.html", context)
+
+
+
+# qwfqqqqqqqqqq

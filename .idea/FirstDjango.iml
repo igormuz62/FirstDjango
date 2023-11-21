@@ -4,7 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/django_venv" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.11 (FirstDjango)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Remote Python 3.11.4 (sftp://user@192.168.1.125:22/home/user/ProjectName/django_venv/bin/python)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
