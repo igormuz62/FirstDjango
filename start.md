@@ -1,4 +1,4 @@
-source django_venv/bin/activate 
+source /home/user/ProjectName/django_venv/bin/activate 
 
 cd ProjectName/FirstDjango/
 

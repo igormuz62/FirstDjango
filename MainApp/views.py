@@ -26,7 +26,7 @@ def home(request):
     # return HttpResponse(text)
     context = {
         "name" : "Василий Васильевич Пупкин",
-        "email" : "my_mail.ru"
+        "email" : "my_mail@mail.ru"
     }
     return render(request, "index.html", context)
 
@@ -36,6 +36,7 @@ def about(request):
         Фамилия: <b>{author["surname"]}</b><br>
         телефон: <b>{author["phone"]}</b><br>
         email: <b>{author["email"]}</b><br>
+        <a href='/home'>Home</a>
         """
     return HttpResponse(text)
 
