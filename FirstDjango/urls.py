@@ -26,4 +26,4 @@ urlpatterns = [
     path('items', views.items_list, name="items-list"),
 ]
 
-# 54374857
+# 54374857lk;hvm
